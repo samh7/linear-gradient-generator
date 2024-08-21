@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>linear-gradient-generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body class="fill-screen flex justify-center">
+    <!-- Your Code Goes Here -->
+    <div class="w-52 grid place-items-center h-52 mt-40">
+      <div class="flex items-center">
+        <button
+          class="generate-button rounded-lg p-2 text-black text-2xl font-serif"
+        >
+          Generate
+        </button>
+        <div
+          class="copy-button-container ml-7 w-10 h-10 flex justify-center rounded-md"
+        >
+          <img
+            onclick="copyToClipboard()"
+            class="copy-button w-9 h-9"
+            src="./copy.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
